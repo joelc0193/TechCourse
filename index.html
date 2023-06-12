@@ -77,18 +77,6 @@
       color: #757575;
     }
 
-    select {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: none;
-      border-bottom: 2px solid #37474F;
-      background-color: #FFF;
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-    }
-
     ul {
       list-style-type: none;
       padding-left: 0;
@@ -182,12 +170,8 @@
       <input type="text" id="email" name="email"><br>
       <label for="interest">What do you want to learn:</label><br>
       <input type="text" id="interest" name="interest"><br><br>
-      <label for="level">Current skill level:</label><br>
-      <select id="level" name="level">
-        <option value="beginner">Beginner</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="advanced">Advanced</option>
-      </select><br>
+      <label for="skills">What do you know how to do?</label><br>
+      <textarea id="skills" name="skills" rows="4" cols="50"></textarea><br>
 
       <input type="submit" value="Submit">
     </form>

@@ -75,12 +75,16 @@
       color: #757575;
     }
 
-    /* @media (min-width: 768px) {
+     @media (min-width: 768px) {
   .container {
     width: 75%;
     padding: 40px;
   }
-} */
+}
+body {
+  background-color: #e6f7ff; /* Light sky blue */
+}
+
   </style>
 </head>
 
@@ -97,7 +101,7 @@
       <p>June 24, July 1, July 8, July 15</p>
     </div>
 
-    <form action="/submitForm" method="POST">
+    <form action="/submitForm" method="POST" netlify>
       <label for="fname">Name:</label><br>
       <input type="text" id="fname" name="fname"><br>
       <label for="age">Age:</label><br>

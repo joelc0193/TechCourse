@@ -119,14 +119,6 @@
       /* This allows the user to resize the textarea vertically but not horizontally */
     }
 
-    .group {
-      background-color: #e8f0fe;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    }
-
 
     @media (max-width: 1000px) {
       .container {
@@ -184,19 +176,16 @@
 
     <form action="/submitForm" method="POST" netlify>
       <label for="fname">Name:</label><br>
-      <div class="group">
-        <input type="text" id="fname" name="fname"><br>
-        <label for="age">Age:</label><br>
-        <input type="text" id="age" name="age"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
-      </div>
-      <div class="group">
-        <label for="interest">What do you want to learn:</label><br>
-        <input type="text" id="interest" name="interest"><br><br>
-        <label for="skills">What do you know how to do (optional):</label><br>
-        <textarea id="skills" name="skills" rows="4" cols="50"></textarea><br>
-      </div>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="age">Age:</label><br>
+      <input type="text" id="age" name="age"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="interest">What do you want to learn:</label><br>
+      <input type="text" id="interest" name="interest"><br><br>
+      <label for="skills">What do you know how to do (optional):</label><br>
+      <textarea id="skills" name="skills" rows="4" cols="50"></textarea><br>
+
       <input type="submit" value="Submit">
     </form>
   </div>

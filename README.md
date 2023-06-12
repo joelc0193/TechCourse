@@ -1,1 +1,1 @@
-# tech-course
+# TechCourse

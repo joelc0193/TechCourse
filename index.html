@@ -11,11 +11,13 @@
     }
 
     .container {
+      box-sizing: border-box;
       width: 100%;
       max-width: 600px;
       margin: 0 auto;
       padding: 20px;
     }
+
 
     h2 {
       color: #37474F;
@@ -75,52 +77,47 @@
       color: #757575;
     }
 
-     @media (min-width: 768px) {
-  .container {
-    width: 75%;
-    padding: 40px;
-  }
-}
+    @media (min-width: 768px) {
+      .container {
+        width: 75%;
+        padding: 40px;
+      }
+    }
 
-select {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid #37474F;
-  background-color: #FFF;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
+    select {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid #37474F;
+      background-color: #FFF;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-ul li {
-  padding: 10px 0;
-  color: #37474F;
-  font-size: 16px;
-}
+    ul li {
+      padding: 10px 0;
+      color: #37474F;
+      font-size: 16px;
+    }
 
-ul li ul {
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 2px solid #37474F;
-}
+    ul li ul {
+      margin-left: 20px;
+      padding-left: 20px;
+      border-left: 2px solid #37474F;
+    }
 
-ul li ul li {
-  padding: 5px 0;
-  color: #757575;
-}
-
-
-
-
-
+    ul li ul li {
+      padding: 5px 0;
+      color: #757575;
+    }
   </style>
 </head>
 
@@ -132,18 +129,18 @@ ul li ul li {
     <div class="details">
       <h3>Pricing:</h3>
       <p>$10 per hour</p>
-<h3>Schedule:</h3>
-<ul>
-  <li>Timing: 10:00am - 12:00pm</li>
-  <li>Days: Every Saturday</li>
-  <li>Dates:</li>
-  <ul>
-    <li>June 24</li>
-    <li>July 1</li>
-    <li>July 8</li>
-    <li>July 15</li>
-  </ul>
-</ul>
+      <h3>Schedule:</h3>
+      <ul>
+        <li>Timing: 10:00am - 12:00pm</li>
+        <li>Days: Every Saturday</li>
+        <li>Dates:</li>
+        <ul>
+          <li>June 24</li>
+          <li>July 1</li>
+          <li>July 8</li>
+          <li>July 15</li>
+        </ul>
+      </ul>
 
 
     </div>
@@ -157,12 +154,12 @@ ul li ul li {
       <input type="text" id="email" name="email"><br>
       <label for="interest">What do you want to learn:</label><br>
       <input type="text" id="interest" name="interest"><br><br>
-<label for="level">Current skill level:</label><br>
-<select id="level" name="level">
-  <option value="beginner">Beginner</option>
-  <option value="intermediate">Intermediate</option>
-  <option value="advanced">Advanced</option>
-</select><br>
+      <label for="level">Current skill level:</label><br>
+      <select id="level" name="level">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select><br>
 
       <input type="submit" value="Submit">
     </form>

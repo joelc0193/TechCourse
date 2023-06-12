@@ -176,16 +176,15 @@
 
     <form action="/submitForm" method="POST" netlify>
       <label for="fname">Name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
+      <input class="data-input" type="text" id="fname" name="fname"><br>
       <label for="age">Age:</label><br>
-      <input type="text" id="age" name="age"><br>
+      <input class="data-input" type="text" id="age" name="age"><br>
       <label for="email">Email:</label><br>
-      <input type="text" id="email" name="email"><br>
-      <label for="interest">What do you want to learn:</label><br>
+      <input class="data-input" type="text" id="email" name="email"><br>
+      <label class="response-input" for="interest">What do you want to learn:</label><br>
       <input type="text" id="interest" name="interest"><br><br>
-      <label for="skills">What do you know how to do (optional):</label><br>
+      <label class="response-input" for="skills">What do you know how to do (optional):</label><br>
       <textarea id="skills" name="skills" rows="4" cols="50"></textarea><br>
-
       <input type="submit" value="Submit">
     </form>
   </div>
